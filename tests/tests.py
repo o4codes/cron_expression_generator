@@ -1,7 +1,7 @@
 import unittest
 from croniter import croniter
 
-from src.cron_expression_generator import CronExpressionGenerator
+from src.cron_expression_generator.generator import CronExpressionGenerator
 
 
 class TestCronExpressionGenerator(unittest.TestCase):
